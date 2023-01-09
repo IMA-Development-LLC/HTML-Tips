@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HTML Elements</title> <!-- This will render the title of the header -->
+  <meta charset="UTF-8"> <!-- This attribute declares the document's character encoding. -->
+  <link rel="icon" href="../images/img_1.png"> <!-- This attribute will render the icon in header -->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+
+    <!-- Render the navbar, add hyperlinks to switch HTML files on click.-->
+    <header class="header">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <!-- The <article> HTML element represents a self-contained composition in "../css/style.css" -->
+    <article class="article">
+      <!-- Draw the paragrah with the given text. -->
+      <p>
+        Responsivt webdesign handler om at innhold tilpasses ulike skjermstørrelser.
+        En metode er å bruke media all, wrapper, float og flexbox i html og css
+      </p>
+    </article>
+
+    <!--
+    The <aside> HTML element represents a portion of a document which is only indirectly related to the document's main content
+    We attach the given CSS from the class, "a1 and a2" to the aside element. "a1" and "a2" can be found in "../css/style.css".
+    -->
+    <aside class="a1 aside">Aside 1</aside>
+    <aside class="a2 aside">Aside 2</aside>
+
+    <!-- Draws the image which is received from the following path, "../images/img.png", the alt will render text if image fails to load. -->
+    <img src="../images/img.png" alt="Text" style="">
+
+    <br> <!-- Add a seperator, also known as break -->
+
+    <!-- The <audio> HTML element is used to embed sound content in documents. -->
+    <audio controls src="../audio/file_example_MP3_1MG.mp3"></audio>
+
+    <br>
+
+    <!-- The <video> HTML element embeds a media player which supports video playback into the document -->
+    <video controls src="../video/file_example_MP4_640_3MG.mp4"></video>
+
+    <br>
+
+    <button>Button</button> <!-- The <button> HTML  element represents a button -->
+    <button disabled>Button</button> <!-- Using this Boolean attribute prevents the user from interacting with the button: it cannot be pressed or focused. -->
+
+    <!-- All different type of titles, goes from 1-6 with 1 being the largest -->
+    <h1 style="text-align: center">Example</h1> <!-- Make the text be aligned towards the center -->
+    <h2 style="color: black">Example</h2> <!-- Set text color to black -->
+    <h3 style="font-weight: bold ">Example</h3> <!-- <b> for bold, <i> for cursive -->
+    <h4 style="font-family: 'Agency FB', serif">Example</h4> <!-- Set a custom font family for the text -->
+    <h5 style="font-size: 20px">Example</h5> <!-- Set custom font size -->
+    <h6>Example</h6> <!-- Normal method for drawing text (chose through 1-6 for size difference) -->
+    
+    <hr> <!-- Draws a horizontal line across the page or class you're using it in. -->
+
+    <!-- Different type of lists -->
+    <ul>Example</ul> <!-- The <ul> HTML element renders a bulleted / unordered list -->
+    <ol>Example</ol> <!-- The <ol> HTML element renders a numbered / ordered list -->
+    <li>Example</li> <!-- The <li> HTML element renders an item, must be parented to ol or ul meaning we're not allowed to use it in this situation -->
+
+    <a href="https://example.com">Example</a> <!-- The <a> creates a hyperlink, and the content of "href" is the URL that the hyperlink points to -->
+
+    <!-- The <table> HTML element represents tabular data  -->
+    <table>
+      <tr> <!-- The <tr> HTML element defines a row of cells in a table -->
+        <th>Example1</th> <!-- The <th> HTML element defines a cell as header of a group of table cells. -->
+        <th>Example2</th>
+        <th>Example3</th>
+        <th>Example4</th>
+        <th>Example5</th>
+      </tr>
+      <tr>
+        <th>Example1</th>
+        <th>Example2</th>
+        <th>Example3</th>
+        <th>Example4</th>
+        <th>Example5</th>
+      </tr>
+      <tr>
+        <th>Example1</th>
+        <th>Example2</th>
+        <th>Example3</th>
+        <th>Example4</th>
+        <th>Example5</th>
+      </tr>
+    </table>
+
+    <p> <!-- The <p> HTML element renders a paragraph. Content found inside is special signs which is built in, there's way more than the following. -->
+      List of different special characters <br>
+
+      &pi; <!-- π -->
+      &Aacute; <!-- Á -->
+      &Abreve; <!-- Ă -->
+      &ac; <!-- ∿ -->
+      &acd; <!-- ∿ -->
+      &Acirc; <!-- Â -->
+      &acute; <!-- ´ -->
+      +-AElig; <!-- Æ -->
+      &afr; <!-- 𝔞 -->
+      &Afr; <!-- 𝔄 -->
+      &amalg; <!-- ⨿ -->
+      &andslope; <!-- ⩘ -->
+      &ange; <!-- ⦤ -->
+      &ascr; <!-- 𝒶 -->
+      &barvee; <!-- ⊽ -->
+      &bemptyv; <!-- ⦰ -->
+      &backepsilon; <!-- ϶ -->
+      &bfr; <!-- 𝔟 -->
+      &emptyv; <!-- ∅ -->
+      &awint; <!-- ⨑ -->
+
+      &#128516 <!-- 😄 -->
+      &#128512 <!-- 😀 -->
+      &#128514 <!-- 😂 -->
+    </p>
+
+    <!-- The <footer> HTML element represents a footer for its nearest sectioning content or sectioning root meaning the bottom. -->
+    <footer class="footer">Footer</footer>
+
+  </div>
+</body>
+</html>
